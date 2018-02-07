@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FCT UNESP Serviços</string>
+    <string name="category_name">Categoria</string>
+    <string name="description">Descrição da ocorrência</string>
+    <string name="details">Detalhes do local</string>
+    <string name="camera">Camera image</string>
+    <string name="unesp_logo">UNESP logo</string>
+
+    <string-array name="category_array">
+        <item>Elétrica</item>
+        <item>Hidráulica</item>
+        <item>Jardinagem</item>
+        <item>Mobiliário</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="north_area_array">
+        <item>Anfiteatro 3, Serviço de Cópias e Laboratórios</item>
+        <item>Bloco de Aulas 3 e Cabine de Informações</item>
+        <item>Departamento de Educação Física</item>
+        <item>Departamento de Fisioterapia e Laboratórios</item>
+        <item>Cantina, Seção Técnica de Saúde e AGB</item>
+        <item>Centro de Convivência Infantil - CCI</item>
+        <item>Estação Meteorológica e Laboratórios</item>
+        <item>Ginásio de Esportes</item>
+        <item>Laboratórios</item>
+        <item>Moradia Estudantil - Blocos A, B, C e D</item>
+        <item>Pista de Atletismo</item>
+        <item>Sede Administrativa da ASA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_unesp"
+    tools:context="com.project.fkmichiura.servicesapp.MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#44444444"
+        android:entries="@array/category_array"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/et_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_category"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#44444444"
+        android:hint="@string/category_name"
+        android:maxLines="1"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_category"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#44444444"
+        android:hint="@string/description"
+        android:maxLines="5"
+        android:minLines="3"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/iv_camera"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/et_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="@string/camera"
+        android:padding="8dp"
+        android:src="@drawable/open_camera" />
+
+    <EditText
+        android:id="@+id/et_location_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_camera"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#44444444"
+        android:hint="@string/details"
+        android:maxLines="5"
+        android:minLines="3"
+        android:padding="8dp" />
+</RelativeLayout>
